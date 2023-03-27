@@ -1,0 +1,6 @@
+function filtraPersonajesFiction(filtroInicial, filtroEdad){
+    return personajes.filter( personajes =>
+        personajes.nombre[0] === filtroinicial &&
+        personajes.edad > filtroEdad
+        );
+}
