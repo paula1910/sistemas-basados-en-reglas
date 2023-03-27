@@ -1,0 +1,5 @@
+function filtrarEdad18y25Genero(filtroEdadMin, filtroEdadMax, filtroEdadGénero){
+   return personajes.filter(personaje=>
+       personajes.edad >= filtroEdadMax &&
+       personajes.edad <= filtroEdadMin &&
+       personajes.edad === filtroEdadGenero &&
