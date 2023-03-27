@@ -1,0 +1,7 @@
+function filtraOcupacionDominioEmail(filtroOcupacion, filtroDominioEmail){
+    return personajes.filter(personajes =>
+        personajes.ocupación.includes(filtroOcupacion)&&
+        personajes.ocupacion.includes(filtroDominioEmail)
+    );
+
+}
